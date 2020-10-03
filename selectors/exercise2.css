@@ -1,0 +1,18 @@
+#alert {
+style="border-style: dotted; border-color:red; color: red;"
+}
+body {
+    background-color:#f0f8ff ;
+}
+div {
+    width: 75%;
+    min-width: 500px;
+    border: 1px solid #333333;
+    background-color: white;
+    margin: 1em;
+    padding: 0.5em;
+}
+span {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}

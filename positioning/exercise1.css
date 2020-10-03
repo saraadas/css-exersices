@@ -1,0 +1,18 @@
+li  {
+    display: inline
+}
+li {
+    padding: 0 3em 0 3em;
+}
+li {
+    border-style: solid;
+    background-color:blue;
+    text-align: center;
+    
+}
+#odd {
+    display: none;
+}
+#two {
+     visibility: hidden;
+}

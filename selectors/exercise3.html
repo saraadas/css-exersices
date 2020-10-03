@@ -14,18 +14,33 @@
             line-height: 50px; /* align text vertically (this works only for a single line of text) */
             text-align: center;
         }
+        #odd {
+            background-color: #ff3333;
+        }
+        #even {
+            background-color:#0033cc ;
+        }
+        .samesize {
+            font-size: 0.7em;
+        }
+        .samesize2 {
+            font-size: 1.3em;
+        }
+        .lucky {
+            color: white;
+        }
     </style>
 </head>
 <body>
-<div>1</div>
-<div>2</div>
-<div>3</div>
-<div>4</div>
-<div>5</div>
-<div>6</div>
-<div>7</div>
-<div>8</div>
-<div>9</div>
-<div>10</div>
+<div class="samesize" id="odd">1</div>
+<div class="samesize" id="even">2</div>
+<div class="samesize" id="odd">3</div>
+<div id="even">4</div>
+<div id="odd">5</div>
+<div id="even">6</div>
+<div id="odd" class="lucky">7</div>
+<div class="samesize2" id="even">8</div>
+<div class="samesize2" id="odd">9</div>
+<div class="samesize2" id="even">10</div>
 </body>
 </html>
